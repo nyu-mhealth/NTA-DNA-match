@@ -1,6 +1,6 @@
 # NTA-DNA match
 Purpose: For each neighborhood in NTA, match the corresponding DNA files base on center coordinate.
-## introduction
+## Introduction:
 Files and scripts under this directory are used for updating the [`NYU_NTA.geojson`][1] file.
 - Each NTA neighborhood could include several DNA areas.
 - For each NTA neighborhood, the DNA match data is located in feature **GeoJsonFile:** in `NYU_NTA.geojson` file.
@@ -11,7 +11,7 @@ Files and scripts under this directory are used for updating the [`NYU_NTA.geojs
 2. Check the output file manually, fix those mismatched areas.
 3. Use the match result to update all the **GeoJsonFile** feature in original `NYU_NTA.geojson` file.
 4. Then replace the geojson file in path [`/static/website/data/NYU_NTA.geojson`][3]
-## files:
+## Files:
 **`match_output.csv`** is the original output file by running **match.py**.
 
 **`match_withmark.csv`** is the match file after manually check and modify `match_output.csv`. There is a mark ` besides each record which is considered accurate.
