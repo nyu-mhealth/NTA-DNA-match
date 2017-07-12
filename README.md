@@ -14,9 +14,9 @@ Files and scripts under this directory are used for updating the [`NYU_NTA.geojs
 ## files:
 **`match_output.csv`** is the original output file by running **match.py**.
 
-**`match_withmark.csv`** is the match file after manually check and modify `match_output.csv`. There is a mark ````` besides each record which is considered accurate.
+**`match_withmark.csv`** is the match file after manually check and modify `match_output.csv`. There is a mark ` besides each record which is considered accurate.
 
-**`match.csv`** is the simple final version without mark `````.
+**`match.csv`** is the simple final version without mark `.
 
 **`match.py`** is the python script to do the calculation and matching job.
 
